@@ -1,5 +1,8 @@
 @for (item of todoItems; track item.id) {
 
+<div class="flex items-center">
     <p>{{item.title}}</p>
+    <input type="checkbox" [value]="item.completed">
+</div>
 
 }
