@@ -11,6 +11,7 @@ export class HomeComponent {
 
   myVar = "Helloo"
   title = signal("yoo")
+  greet = "helooouuu"
 
 
 }
