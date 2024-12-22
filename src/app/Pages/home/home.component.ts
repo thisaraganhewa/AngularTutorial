@@ -13,5 +13,15 @@ export class HomeComponent {
   title = signal("yoo")
   greet = "helooouuu"
 
+  keyUpHandler(){
+
+    this.title = signal("he doing something");
+
+    this.greet = "what the hell is going on"
+
+    console.log("he did something!!")
+
+  }
+
 
 }
